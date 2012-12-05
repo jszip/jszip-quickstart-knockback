@@ -1,0 +1,21 @@
+<div id="myapp">
+    <div class="title">
+        <h1>{{appName}}</h1>
+    </div>
+    <div class="content">
+        <div id='kb_observable'>
+            <p>First name: <input class='text' data-bind="value: firstName" /></p>
+            <p>Last name: <input class='input-small pull-right' data-bind="value: lastName" /></p>
+            <p>Hello, <span data-bind="text: fullName"></span>!</p>
+        </div>
+        <div id="kb_collection_observable">
+            <div data-bind="if: persons">
+                <span>Has Persons</span>
+            </div>
+            <div data-bind="foreach: persons">
+                <p>First name: <input class='text' data-bind="value: firstName" /></p>
+                <p>Last name: <input class='input-small pull-right' data-bind="value: lastName" /></p>
+            </div>
+        </div>
+    </div>
+</div>

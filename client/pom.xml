@@ -9,4 +9,49 @@
   <artifactId>quickstart-client</artifactId>
   <packaging>jszip</packaging>
 
+  <dependencies>
+    <dependency>
+      <groupId>org.jszip.redist</groupId>
+      <artifactId>json2</artifactId>
+      <version>2012.10.08</version>
+      <type>jszip</type>
+    </dependency>
+    <dependency>
+      <groupId>org.jszip.redist</groupId>
+      <artifactId>require</artifactId>
+      <version>2.1.1</version>
+      <type>jszip</type>
+    </dependency>
+    <dependency>
+      <groupId>org.jszip.redist</groupId>
+      <artifactId>require-domready-plugin</artifactId>
+      <version>2.0.1</version>
+      <type>jszip</type>
+    </dependency>
+    <dependency>
+      <groupId>org.jszip.redist</groupId>
+      <artifactId>require-text-plugin</artifactId>
+      <version>2.0.3</version>
+      <type>jszip</type>
+    </dependency>
+    <dependency>
+      <groupId>org.jszip.redist</groupId>
+      <artifactId>hogan</artifactId>
+      <version>2.0.0</version>
+      <type>jszip</type>
+    </dependency>
+    <dependency>
+      <groupId>org.jszip.redist</groupId>
+      <artifactId>jquery</artifactId>
+      <version>1.8.3</version>
+      <type>jszip</type>
+    </dependency>
+    <dependency>
+      <groupId>org.jszip.redist</groupId>
+      <artifactId>knockback</artifactId>
+      <version>0.16.7</version>
+      <type>jszip</type>
+    </dependency>
+  </dependencies>
+
 </project>
