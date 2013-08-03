@@ -1,14 +1,5 @@
 require.config({
-    paths:{
-        "backbone":"/backbone",
-        "jquery":"/jquery",
-        "underscore":"/underscore",
-        "knockout":"/knockout",
-        "knockback":"/knockback",
-        "text":"/text",
-        "hogan":"/hogan",
-        "domReady":"/domReady"
-    },
+    baseUrl: 'scripts/',
     shim:{
         "underscore":{
             exports:"_"
