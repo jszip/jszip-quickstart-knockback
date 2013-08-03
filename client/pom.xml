@@ -19,7 +19,7 @@
     <dependency>
       <groupId>org.jszip.redist</groupId>
       <artifactId>require</artifactId>
-      <version>2.1.1</version>
+      <version>2.1.6</version>
       <type>jszip</type>
     </dependency>
     <dependency>
@@ -31,7 +31,7 @@
     <dependency>
       <groupId>org.jszip.redist</groupId>
       <artifactId>require-text-plugin</artifactId>
-      <version>2.0.3</version>
+      <version>2.0.7</version>
       <type>jszip</type>
     </dependency>
     <dependency>
@@ -43,13 +43,13 @@
     <dependency>
       <groupId>org.jszip.redist</groupId>
       <artifactId>jquery</artifactId>
-      <version>1.8.3</version>
+      <version>2.0.2</version>
       <type>jszip</type>
     </dependency>
     <dependency>
       <groupId>org.jszip.redist</groupId>
       <artifactId>knockback</artifactId>
-      <version>0.16.7</version>
+      <version>0.16.8</version>
       <type>jszip</type>
     </dependency>
   </dependencies>
