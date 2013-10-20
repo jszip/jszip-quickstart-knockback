@@ -28,6 +28,14 @@
       <plugin>
         <groupId>org.jszip.maven</groupId>
         <artifactId>jszip-maven-plugin</artifactId>
+        <configuration>
+          <mappings>
+            <mapping>
+              <select>org.jszip.redist:*</select>
+              <path>scripts</path>
+            </mapping>
+          </mappings>
+        </configuration>
         <executions>
           <execution>
             <goals>
